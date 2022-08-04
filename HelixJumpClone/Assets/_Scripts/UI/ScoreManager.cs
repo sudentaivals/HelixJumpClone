@@ -24,13 +24,13 @@ public class ScoreManager : SingletonInstance<ScoreManager>
         CurrentScore = 0;
     }
 
-    private int CurrentComboCounter
+    public int CurrentComboCounter
     {
         get
         {
             return _currentComboCount;
         }
-        set
+        private set
         {
             _currentComboCount = value;
             _comboText.SetNewComboText(_currentComboCount);

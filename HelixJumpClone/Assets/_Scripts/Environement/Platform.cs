@@ -23,11 +23,10 @@ public class Platform : MonoBehaviour
         if (IsDestroyCheckerTouchPlayer && !_platformDestroyed)
         {
             DestroyPlatform();
-            EventBus.Publish(EventBusEvent.PlatformDestroyed, this, null);
         }
     }
 
-    private void DestroyPlatform()
+    public void DestroyPlatform()
     {
         foreach (Transform tr in transform)
         {
@@ -36,6 +35,7 @@ public class Platform : MonoBehaviour
                 sector.DestroySector();
             }
         }
+        EventBus.Publish(EventBusEvent.PlatformDestroyed, this, null);
         _platformDestroyed = true;
     }
 

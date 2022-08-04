@@ -7753,22 +7753,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1643214851}
     m_Modifications:
-    - target: {fileID: 5379240526049048839, guid: 5b47b831324166d45ba40bb13592ca98, type: 3}
-      propertyPath: _jumpSfx
-      value: 
-      objectReference: {fileID: 8300000, guid: 5c93c5d6f978e5a45be13542aea9bfdb, type: 3}
-    - target: {fileID: 5379240526049048839, guid: 5b47b831324166d45ba40bb13592ca98, type: 3}
-      propertyPath: _jumpVfx
-      value: 
-      objectReference: {fileID: 8616276199121867945, guid: b6374afc5bd7fc0418660b019ccfe017, type: 3}
-    - target: {fileID: 5379240526049048839, guid: 5b47b831324166d45ba40bb13592ca98, type: 3}
-      propertyPath: _jumpSfxVolume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5379240526049048839, guid: 5b47b831324166d45ba40bb13592ca98, type: 3}
-      propertyPath: _maximumFallingSpeed
-      value: -20
-      objectReference: {fileID: 0}
     - target: {fileID: 5379240526049049338, guid: 5b47b831324166d45ba40bb13592ca98, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7832,7 +7816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3986369380221871613, guid: 286394e38e9a6ed4aa02116cd45e5ecc, type: 3}
       propertyPath: _thisLevelId
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7927273995353018100, guid: 286394e38e9a6ed4aa02116cd45e5ecc, type: 3}
       propertyPath: m_RootOrder
